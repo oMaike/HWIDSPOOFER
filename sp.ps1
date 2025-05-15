@@ -1,8 +1,8 @@
 <#
 .NOTES
     Name: Advanced Hardware Spoofer
-    Version: 2.4
-    Author: Anonymous
+    Version: 1.0
+    Author: ma1ke
     Purpose: Modifica identificadores de hardware de forma indetectável
 #>
 
