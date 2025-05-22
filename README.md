@@ -1,9 +1,9 @@
-# Nome do Projeto
+# HWIDSPOOFER
 
 ![Badge](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Licença](https://img.shields.io/github/license/seuusuário/seurepositório)
 
-Uma breve descrição do seu projeto (1-2 frases).
+O projeto tem como objetivo trocar (1-2 frases).
 
 ## 📌 Sumário
 - [Funcionalidades](#✨-funcionalidades)
