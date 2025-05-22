@@ -1,6 +1,6 @@
 <#
 .NOTES
-    Name: Advanced Hardware Spoofer
+    Name:HWIDSPOOFER
     Version: 1.0
     Author: ma1ke
     Purpose: Modifica identificadores de hardware de forma indetectável
