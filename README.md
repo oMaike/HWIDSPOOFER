@@ -1,83 +1,58 @@
+# HWIDSPOOFER 
 
-README - Advanced Hardware Spoofer
-PowerShell
-License
-Platform
+![PowerShell](https://img.shields.io/badge/PowerShell-v5.1+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 
-📌 Visão Geral
-O Advanced Hardware Spoofer é uma ferramenta PowerShell sofisticada projetada para modificar identificadores de hardware de forma indetectável, incorporando técnicas avançadas de anti-análise e ofuscação.
+## 🔍 Visão Geral
+Ferramenta PowerShell para modificação indetectável de identificadores de hardware com técnicas avançadas de anti-análise.
 
-powershell
-# Exemplo de uso
-Invoke-AdvancedSpoofing
-✨ Recursos Principais
-Spoofing Abrangente:
+## 🚀 Recursos
+- **Spoofing Completo**:
+  - MAC Address
+  - UUID/BIOS
+  - Seriais de Disco
+  - CPU/GPU IDs
+- **Proteção Anti-Análise**
+- **Geração de Valores Realistas**
 
-Endereços MAC
+## 📦 Pré-requisitos
+- Windows 10/11
+- PowerShell 5.1+
+- Execução como Administrador
 
-UUID/BIOS
+## 🛠️ Instalação
+```powershell
+Invoke-WebRequest -Uri "https://github.com/oMaike/HWIDSPOOFER/raw/main/HWIDSPOOFER.ps1" -OutFile "HWIDSPOOFER.ps1"
 
-Seriais de Disco
+⚠️ Avisos
+Use apenas em sistemas autorizados
 
-Identificadores de CPU/GPU
+Algumas alterações são permanentes
 
-Técnicas Anti-Análise:
+Pode disparar alertas de segurança
 
-Detecção de sandbox
-
-Proteção contra debugging
-
-Prevenção de memory dumping
-
-Ofuscação de processo
-
-Geração Realista:
-
-Valores de hardware plausíveis
-
-Padrões de fabricantes reais
-
-Randomização avançada
-
-🛠️ Como Usar
-Execute o script como administrador:
-
-powershell
-.\AdvancedHardwareSpoofer.ps1
-Os resultados serão exibidos no console:
-
-[+] MAC Address alterado para: 00-15-5D-A3-B2-C1 (Técnica avançada)
-[+] BIOS UUID alterado em múltiplas localizações para: {A3B45C67-D89E-412F-BC56-78901234ABCD}
-Algumas alterações requerem reinício para efetivar.
-
-⚠️ Avisos Importantes
-Use apenas para fins legítimos de privacidade e testes autorizados
-
-Pode disparar alertas de segurança em sistemas protegidos
-
-Algumas alterações são permanentes até reinstalação do sistema
-
-Teste em ambiente controlado antes de uso em produção
-
-📚 Documentação Técnica
-Estrutura do Código
-├── Anti-Analysis
-│   ├── Invoke-AntiAnalysis
-│   └── Invoke-StealthMode
-├── Kernel-Level
-│   ├── Memory Patching
-│   └── Driver Checks
-├── Value Generation
-│   └── Generate-LegitValue
-└── Spoofing Functions
-    ├── Set-MACAddress
-    ├── Set-BIOSUUID
-    ├── Set-DiskSerial
-    └── Invoke-AdvancedSpoofing
 📜 Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+MIT - Consulte o arquivo LICENSE
 
 📬 Contato
-Para questões sobre o projeto:
-📧 maikesk812@gmail.com
-🐦 @y0tt4ma1ke
+@yottama1ke
+
+
+### Estrutura de Arquivos Recomendada:
+/HWIDSPOOFER
+│ README.md
+│ HWIDSPOOFER.ps1
+│ LICENSE
+└── /docs
+└── technical_details.md
+
+
+Você pode copiar este texto diretamente para um arquivo README.md no seu repositório. A estrutura inclui:
+- Badges de status
+- Seções organizadas
+- Exemplos de uso
+- Informações de licença
+- Formatação markdown pronta
+
+Deseja que eu adicione mais alguma seção específica ou ajuste algum detalhe?
