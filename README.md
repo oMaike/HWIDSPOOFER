@@ -36,7 +36,7 @@ Pode disparar alertas de segurança
 MIT - Consulte o arquivo LICENSE
 
 📬 Contato
-@yottama1ke
+@yott4ma1k3
 
 
 ### Estrutura de Arquivos Recomendada:
@@ -56,3 +56,4 @@ Você pode copiar este texto diretamente para um arquivo README.md no seu reposi
 - Formatação markdown pronta
 
 Deseja que eu adicione mais alguma seção específica ou ajuste algum detalhe?
+Em caso de erros, entre em contato comigo 
